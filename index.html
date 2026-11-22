@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>DEV Portfolio | Web Developer</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="#home" class="logo">
+                DEV<span>.</span>
+            </a>
+<button class="menu-toggle"
+        type="button"
+        aria-label="Відкрити меню"
+        aria-expanded="false"
+        aria-controls="main-navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+           <nav class="navigation" id="main-navigation">
+                <a href="#home">Головна</a>
+                <a href="#about">Про мене</a>
+                <a href="#projects">Проєкти</a>
+                <a href="#contacts">Контакти</a>
+                <a href="#services">Послуги</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="container">
+
+                <p class="hero-label">
+                    WEB DEVELOPER · PORTFOLIO
+                </p>
+
+                <h1>
+                    Створюю сайти, які
+                    <span>виділяються.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Сучасний вебдизайн, адаптивна
+                    верстка та інтерактивність.
+                    Від ідеї до готового сайту.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Мої проєкти
+                    </a>
+
+                    <a href="#contacts" class="btn btn-outline">
+                        Зв'язатися
+                    </a>
+                </div>
+
+                <div class="tech-stack">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+        </section>
+
+<section id="about" class="about">
+    <div class="container">
+
+        <p class="section-label">ПРО МЕНЕ</p>
+
+        <h2 class="section-title">
+            Привіт! Я веброзробник.
+        </h2>
+
+        <p class="about-description">
+            Створюю сучасні адаптивні сайти,
+            приділяючи увагу дизайну,
+            зручності використання та деталям.
+            Постійно вдосконалюю свої навички
+            й розвиваю власні проєкти.
+        </p>
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+                <span class="skill-icon">01</span>
+                <h3>HTML5</h3>
+                <p>
+                    Створення структури сайту,
+                    семантична розмітка.
+                </p>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon">02</span>
+                <h3>CSS3</h3>
+                <p>
+                    Адаптивний дизайн, Flexbox,
+                    Grid та анімації.
+                </p>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon">03</span>
+                <h3>JavaScript</h3>
+                <p>
+                    Інтерактивні елементи,
+                    мобільне меню та робота з DOM.
+                </p>
+            </article>
+
+            <article class="skill-card">
+                <span class="skill-icon">04</span>
+                <h3>GitHub</h3>
+                <p>
+                    Збереження коду та публікація
+                    сайтів через GitHub Pages.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="container">
+
+        <p class="section-label">МОЇ РОБОТИ</p>
+
+        <h2 class="section-title">
+            Останні проєкти.
+        </h2>
+
+        <p class="projects-description">
+            Приклади сайтів, які я створив,
+            використовуючи HTML, CSS і JavaScript.
+        </p>
+
+        <div class="projects-grid">
+
+            <!-- BLACKLINE -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/blackline.png"
+                         alt="Скриншот сайту BLACKLINE"
+                         loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>BLACKLINE</h3>
+
+                    <p>
+                        Сучасний сайт барбершопу
+                        з адаптивним дизайном,
+                        анімаціями та мобільним меню.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://barle123.github.io/BLACKLINE/"
+                       class="project-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Переглянути сайт ↗
+                    </a>
+                </div>
+
+            </article>
+
+            <!-- NOIR COFFEE -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/noir-coffee.png"
+                         alt="Скриншот сайту NOIR Coffee"
+                         loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>NOIR Coffee</h3>
+
+                    <p>
+                        Сайт кав'ярні з меню напоїв,
+                        фотогалереєю, контактами.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://barle123.github.io/NOIR-COFFEE/"
+                       class="project-link"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Переглянути сайт ↗
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container">
+
+        <p class="section-label">ЩО Я ПРОПОНУЮ</p>
+
+        <h2 class="section-title">
+            Мої послуги.
+        </h2>
+
+        <p class="services-description">
+            Допомагаю створювати сучасні
+            та зручні вебсайти для бізнесу.
+        </p>
+
+        <div class="services-grid">
+
+            <article class="service-card">
+                <span class="service-number">01</span>
+                <h3>Landing Page</h3>
+                <p>
+                    Створення односторінкових сайтів
+                    для презентації бізнесу,
+                    товарів або послуг.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">02</span>
+                <h3>Адаптивний дизайн</h3>
+                <p>
+                    Оптимізація відображення сайту
+                    для комп'ютерів, планшетів
+                    і смартфонів.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">03</span>
+                <h3>Верстка за макетом</h3>
+                <p>
+                    Перетворення дизайну в робочий
+                    сайт за допомогою HTML,
+                    CSS та JavaScript.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">04</span>
+                <h3>Публікація сайту</h3>
+                <p>
+                    Розміщення готового статичного
+                    сайту в інтернеті та перевірка
+                    його працездатності.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contacts" class="contacts">
+    <div class="container">
+
+        <div class="contact-box">
+
+            <p class="section-label">
+                ЗВ'ЯЗОК
+            </p>
+
+            <h2>
+                Маєте ідею для сайту?
+            </h2>
+
+            <p>
+                Розкажіть про ваш проєкт,
+                і ми обговоримо можливості
+                його реалізації.
+            </p>
+
+            
+<a href="https://t.me/Barle321"
+   class="btn btn-primary"
+   target="_blank"
+   rel="noopener noreferrer">
+    Написати в Telegram ↗
+</a>
+
+
+        </div>
+
+    </div>
+</section>
+
+    </main>
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo">
+            DEV<span>.</span>
+        </a>
+
+        <p>© 2026 DEV Portfolio</p>
+
+        <a href="#home" class="back-to-top">
+            Повернутися нагору ↑
+        </a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
